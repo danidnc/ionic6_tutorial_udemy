@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class Tab1Page {
   constructor() {}
 
+  // eslint-disable-next-line @angular-eslint/use-lifecycle-interface
   ngOnInit() {
     const numero = 10;
 
